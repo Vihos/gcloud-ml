@@ -4,8 +4,8 @@ MAINTAINER Dmitry Boldak <dbsfbp@gmail.com>
 RUN apk add --no-cache \
         --virtual=.build-dependencies \
         g++ gcc build-base gfortran file binutils \
-        musl-dev python3-dev cython openblas-dev freetype-dev libpng-dev && \
-    apk add bash libstdc++ openblas mariadb-dev && \
+        musl-dev python3-dev cython openblas-dev && \
+    apk add bash libstdc++ openblas mariadb-dev freetype-dev libpng-dev && \
     \
     ln -s locale.h /usr/include/xlocale.h && \
     \

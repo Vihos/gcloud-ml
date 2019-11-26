@@ -22,5 +22,5 @@ $ docker run --rm vihos/gcloud-ml gcloud components list
 Once you have run this command you will get printed full list of components installed to GCloud SDK! Or use it interactivelly:
 
 ```bash
-$ docker run -it --rm vihos/gcloud-ml /bin/sh
+$ docker run -it --rm vihos/gcloud-ml /bin/bash
 ```
